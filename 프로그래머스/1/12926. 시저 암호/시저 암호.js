@@ -14,8 +14,3 @@ function solution(s, n) {
         return char;
     }).join('');
 }
-
-// 예제 입력
-console.log(solution("AB", 1)); // 출력: "BC"
-console.log(solution("z", 1));  // 출력: "a"
-console.log(solution("a B z", 4)); // 출력: "e F d"
